@@ -77,11 +77,11 @@ function fetchBookmarks() {
     } else {
         // Create bookmarks array in localStorage
         bookmarks = [
-            {
-                name: 'MJ Design',
-                url: 'https://mjlearn13.github.io/animated-navigation/',
-            },
-        ];
+          {
+            name: 'MJ Design',
+            url: 'https://github.com/mjlearn13',
+          },
+        ]
         localStorage.setItem('bookmarks', JSON.stringify(bookmarks));
     }
     buildBookmarks();
